@@ -1,0 +1,17 @@
+.customeSwiper {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  opacity: 1;
+  margin: 0 6px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000; /* Active dot color */
+}
