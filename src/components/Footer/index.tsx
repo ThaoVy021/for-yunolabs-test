@@ -10,7 +10,7 @@ import Youtube from "@/assets/icons/Youtube.svg"
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
-      <div className="container flex gap-8 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container block gap-8 mx-auto px-4 sm:px-6 lg:px-8 md:flex">
         <div className="flex flex-col md:flex-row justify-between items-center  border-0 pb-6 mb-6">
           <div className="mb-6 md:mb-0">
             <span>
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap text-sm text-gray-400">
+        <div className="block flex-wrap text-sm text-gray-400 md:flex">
           <div>
             <p className="mb-4" style={{ fontSize: 12 }}>
               CONTACT US
@@ -83,7 +83,7 @@ const Footer = () => {
             </p>
             <p className="font-semibold text-2xl">9am—6pm</p>
           </div>
-          <div className="flex space-x-4 h-4">
+          <div className="flex space-x-4 h-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-white">
               <Image src={Facebook} alt="Facebook" className="h-4 w-auto" />
             </a>
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap flex-col-reverse text-gray-400">
+        <div className="flex flex-wrap flex-col-reverse text-gray-400 mt-4 md:mt-0">
           <div style={{ fontSize: 8, textWrap: "nowrap" }}>
             © 2024 — COPYRIGHT
           </div>

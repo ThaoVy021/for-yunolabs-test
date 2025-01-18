@@ -16,7 +16,7 @@ const Banner = () => {
       <div className="container relative z-10 mx-auto px-4 py-12  sm:px-6 lg:px-8 text-white">
         {/* Text Content */}
         <div className="max-w-lg">
-          <h1 className="text-4xl font-medium mb-4 leading-tight ">
+          <h1 className="text-xl font-medium mb-4 leading-tight md:text-4xl">
             Unveil Your Best Self with Cosmedix Clinics' Expert Care <br />
             and Cutting-Edge Treatments
           </h1>

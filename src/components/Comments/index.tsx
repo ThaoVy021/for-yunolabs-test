@@ -47,13 +47,18 @@ const Comments = () => {
           modules={[Navigation, Pagination]}
           className=" customeSwiper"
           spaceBetween={20}
-          slidesPerView={2}
+          // slidesPerView={2}
           navigation
           pagination={{
             clickable: true,
             el: ".pagination",
           }}
           loop
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 1 },
+            1024: { slidesPerView: 2 },
+          }}
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>

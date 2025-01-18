@@ -50,7 +50,7 @@ const Concerns = () => {
           className="concernSwiper"
           modules={[Navigation, Pagination]}
           spaceBetween={16}
-          slidesPerView={3}
+          // slidesPerView={3}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",

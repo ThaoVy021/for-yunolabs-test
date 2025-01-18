@@ -23,7 +23,7 @@ const Testimonial = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="relative p-6 border border-gray-400 border-r-0 rounded-bl-[60px] bg-white shadow-sm flex flex-col">
+        <div className="relative p-6 border border-gray-400 border-r-0 rounded-bl-[60px] bg-white shadow-sm flex flex-col mt-6 md:mt-0">
           <h2 className="text-xl font-medium text-gray-800 mb-4">
             Option between In-Clinic and Virtual Consultation
           </h2>
